@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
-h1 {
+#text-size {
   font-size: 80px;
 }
 span {
@@ -11,7 +11,6 @@ span {
 
 .tasty-salad {
   display: flex;
-  align-content: ;
   margin-bottom: 100px;
 }
 .width-half {
@@ -27,7 +26,7 @@ span {
   display: inline-block;
 }
 .img-size {
-  width: 80%;
+  width: 100%;
   border-radius: 15px;
 }
 .left-top-banner {
@@ -42,4 +41,30 @@ span {
 }
 .menu-position {
   text-align: center;
+}
+.thumb-size {
+  width: 100%;
+  border-radius: 7%;
+  height: 70%;
+}
+.shadow-box {
+  width: 30%;
+  margin: 3%;
+  padding: 50px;
+  border-radius: 7%;
+  box-shadow: 1px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+.followers {
+  width: 33.3%;
+  padding: 0 10%;
+}
+.followers h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+footer {
+  text-align: center;
+  color: aliceblue;
+  background: #03071e;
+  padding: 20px;
 }
