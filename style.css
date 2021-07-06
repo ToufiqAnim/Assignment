@@ -3,13 +3,15 @@ body {
   margin: 0;
 }
 h1 {
-  font-size: 60px;
+  font-size: 80px;
 }
 span {
   color: #e76f51;
 }
+
 .tasty-salad {
   display: flex;
+  align-content: ;
   margin-bottom: 100px;
 }
 .width-half {
@@ -28,7 +30,16 @@ span {
   width: 80%;
   border-radius: 15px;
 }
-.left-banner {
-  background-image: url("image/left-banner.png");
+.left-top-banner {
+  background-image: url("image/left-top-banner.png");
   background-repeat: no-repeat;
+}
+.right-bottom-banner {
+  background-image: url("image/banner.png");
+  background-position: right;
+  background-position-y: 80%;
+  background-repeat: no-repeat;
+}
+.menu-position {
+  text-align: center;
 }
