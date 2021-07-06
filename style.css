@@ -25,6 +25,14 @@ span {
   border-radius: 20px;
   display: inline-block;
 }
+.menu-link-btn {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(#e63946, #e76f51);
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin-left: 30%;
+}
 .img-size {
   width: 100%;
   border-radius: 15px;
