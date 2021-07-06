@@ -25,14 +25,7 @@ span {
   border-radius: 20px;
   display: inline-block;
 }
-.menu-link-btn {
-  text-decoration: none;
-  color: white;
-  background-image: linear-gradient(#e63946, #e76f51);
-  padding: 10px 40px;
-  border-radius: 5px;
-  margin-left: 30%;
-}
+
 .img-size {
   width: 100%;
   border-radius: 15px;
@@ -50,6 +43,7 @@ span {
 .menu-position {
   text-align: center;
 }
+
 .thumb-size {
   width: 100%;
   border-radius: 7%;
@@ -62,6 +56,14 @@ span {
   border-radius: 7%;
   box-shadow: 1px 4px 8px 4px rgba(0, 0, 0, 0.2);
 }
+.menu-link-btn {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(#e63946, #e76f51);
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin-left: 30%;
+}
 .followers {
   width: 33.3%;
   padding: 0 10%;
@@ -69,6 +71,20 @@ span {
 .followers h1 {
   font-size: 40px;
   font-weight: 900;
+}
+
+input[type="email"] {
+  border: none;
+  border-bottom: 2px solid rgb(43, 32, 32);
+  margin-right: 10%;
+  width: 30%;
+}
+
+input[type="password"] {
+  border: none;
+  border-bottom: 2px solid rgb(43, 32, 32);
+  width: 30%;
+  margin-right: 5%;
 }
 footer {
   text-align: center;
